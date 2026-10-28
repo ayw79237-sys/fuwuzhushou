@@ -1,1 +1,13 @@
-{"name":"banhaole-service-assistant","version":"1.0.0","private":true,"description":"办好了：公共服务办事引导与卡点工作台","scripts":{"start":"node server.cjs","test":"node check-chat.cjs && node check-cases.cjs"},"engines":{"node":">=20"}}
+{
+  "name": "banhaole-service-assistant",
+  "version": "1.0.0",
+  "private": true,
+  "description": "办好了：公共服务办事引导与卡点工作台",
+  "scripts": {
+    "start": "node server.cjs",
+    "test": "node check-chat.cjs && node check-cases.cjs && node check-voice-api.mjs"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
