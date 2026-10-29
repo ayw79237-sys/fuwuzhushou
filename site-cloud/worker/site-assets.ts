@@ -10,11 +10,12 @@ import asset8 from "../public/doubao-voice.js?raw";
 import asset9 from "../public/index.html?raw";
 import asset10 from "../public/logo.svg?raw";
 import asset11 from "../public/mobile.css?raw";
-import asset12 from "../public/refined.css?raw";
-import asset13 from "../public/refined.js?raw";
-import asset14 from "../public/style.css?raw";
-import asset15 from "../public/voice.css?raw";
-import asset16 from "../public/voice.js?raw";
+import asset12 from "../public/premium.css?raw";
+import asset13 from "../public/refined.css?raw";
+import asset14 from "../public/refined.js?raw";
+import asset15 from "../public/style.css?raw";
+import asset16 from "../public/voice.css?raw";
+import asset17 from "../public/voice.js?raw";
 export const siteAssets: Record<string, {body:string;type:string}> = {
 "/app.js": {body:asset0, type:"text/javascript; charset=utf-8"},
 "/case-engine.js": {body:asset1, type:"text/javascript; charset=utf-8"},
@@ -28,9 +29,10 @@ export const siteAssets: Record<string, {body:string;type:string}> = {
 "/index.html": {body:asset9, type:"text/html; charset=utf-8"},
 "/logo.svg": {body:asset10, type:"image/svg+xml"},
 "/mobile.css": {body:asset11, type:"text/css; charset=utf-8"},
-"/refined.css": {body:asset12, type:"text/css; charset=utf-8"},
-"/refined.js": {body:asset13, type:"text/javascript; charset=utf-8"},
-"/style.css": {body:asset14, type:"text/css; charset=utf-8"},
-"/voice.css": {body:asset15, type:"text/css; charset=utf-8"},
-"/voice.js": {body:asset16, type:"text/javascript; charset=utf-8"}
+"/premium.css": {body:asset12, type:"text/css; charset=utf-8"},
+"/refined.css": {body:asset13, type:"text/css; charset=utf-8"},
+"/refined.js": {body:asset14, type:"text/javascript; charset=utf-8"},
+"/style.css": {body:asset15, type:"text/css; charset=utf-8"},
+"/voice.css": {body:asset16, type:"text/css; charset=utf-8"},
+"/voice.js": {body:asset17, type:"text/javascript; charset=utf-8"}
 };
