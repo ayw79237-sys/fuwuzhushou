@@ -13,9 +13,10 @@ import asset11 from "../public/mobile.css?raw";
 import asset12 from "../public/premium.css?raw";
 import asset13 from "../public/refined.css?raw";
 import asset14 from "../public/refined.js?raw";
-import asset15 from "../public/style.css?raw";
-import asset16 from "../public/voice.css?raw";
-import asset17 from "../public/voice.js?raw";
+import asset15 from "../public/regions.js?raw";
+import asset16 from "../public/style.css?raw";
+import asset17 from "../public/voice.css?raw";
+import asset18 from "../public/voice.js?raw";
 export const siteAssets: Record<string, {body:string;type:string}> = {
 "/app.js": {body:asset0, type:"text/javascript; charset=utf-8"},
 "/case-engine.js": {body:asset1, type:"text/javascript; charset=utf-8"},
@@ -32,7 +33,8 @@ export const siteAssets: Record<string, {body:string;type:string}> = {
 "/premium.css": {body:asset12, type:"text/css; charset=utf-8"},
 "/refined.css": {body:asset13, type:"text/css; charset=utf-8"},
 "/refined.js": {body:asset14, type:"text/javascript; charset=utf-8"},
-"/style.css": {body:asset15, type:"text/css; charset=utf-8"},
-"/voice.css": {body:asset16, type:"text/css; charset=utf-8"},
-"/voice.js": {body:asset17, type:"text/javascript; charset=utf-8"}
+"/regions.js": {body:asset15, type:"text/javascript; charset=utf-8"},
+"/style.css": {body:asset16, type:"text/css; charset=utf-8"},
+"/voice.css": {body:asset17, type:"text/css; charset=utf-8"},
+"/voice.js": {body:asset18, type:"text/javascript; charset=utf-8"}
 };
