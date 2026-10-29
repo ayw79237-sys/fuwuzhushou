@@ -1,0 +1,11 @@
+// Shared outline icon set for service cards.
+services.find(s=>s.id==='residence').icon="<svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M3 11 12 3l9 8M5 10v11h14V10M9 21v-7h6v7\"/></svg>";
+services.find(s=>s.id==='social').icon="<svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><rect x=\"3\" y=\"5\" width=\"18\" height=\"14\" rx=\"3\"/><circle cx=\"8\" cy=\"11\" r=\"2\"/><path d=\"M5 16c0-3 6-3 6 0m3-6h4m-4 4h4\"/></svg>";
+services.find(s=>s.id==='fund').icon="<svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"m3 10 9-7 9 7M5 10v11h14V10M9 21v-5h6v5m-5-5h4m-2-2v4\"/></svg>";
+services.find(s=>s.id==='medical').icon="<svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M9 3h6v6h6v6h-6v6H9v-6H3V9h6Z\"/></svg>";
+services.find(s=>s.id==='id').icon="<svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><rect x=\"2\" y=\"5\" width=\"20\" height=\"14\" rx=\"3\"/><circle cx=\"8\" cy=\"11\" r=\"2\"/><path d=\"M5 16c0-3 6-3 6 0m3-7h5m-5 4h5m-5 3h3\"/></svg>";
+services.find(s=>s.id==='pension').icon="<svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M4 8h15l-4-4m5 12H5l4 4M4 8l3-3m13 11-3 3\"/></svg>";
+renderCards();
+const originalAddChat=addChat;addChat=function(role,text){originalAddChat(role,text);if(role==='assistant'){const avatars=$$('.chat-message.assistant .chat-avatar');const last=avatars.at(-1);if(last)last.innerHTML='<img src="logo.svg?v=c1" alt="" width="27" height="27">'}};
+$$(".chat-message.assistant .chat-avatar").forEach(el=>el.innerHTML='<img src="logo.svg?v=c1" alt="" width="27" height="27">');
+$('.brand').onclick=e=>{e.preventDefault();go('home')};
