@@ -12,16 +12,19 @@ import asset10 from "../public/doubao-voice.js?raw";
 import asset11 from "../public/index.html?raw";
 import asset12 from "../public/logo.svg?raw";
 import asset13 from "../public/mobile.css?raw";
-import asset14 from "../public/policy-local.js?raw";
-import asset15 from "../public/premium.css?raw";
-import asset16 from "../public/refined.css?raw";
-import asset17 from "../public/refined.js?raw";
-import asset18 from "../public/regions.js?raw";
-import asset19 from "../public/shanghai-localities.js?raw";
-import asset20 from "../public/shanghai-picker.js?raw";
-import asset21 from "../public/style.css?raw";
-import asset22 from "../public/voice.css?raw";
-import asset23 from "../public/voice.js?raw";
+import asset14 from "../public/national-localities.js?raw";
+import asset15 from "../public/national-picker.js?raw";
+import asset16 from "../public/national-regions.js?raw";
+import asset17 from "../public/policy-local.js?raw";
+import asset18 from "../public/premium.css?raw";
+import asset19 from "../public/refined.css?raw";
+import asset20 from "../public/refined.js?raw";
+import asset21 from "../public/regions.js?raw";
+import asset22 from "../public/shanghai-localities.js?raw";
+import asset23 from "../public/shanghai-picker.js?raw";
+import asset24 from "../public/style.css?raw";
+import asset25 from "../public/voice.css?raw";
+import asset26 from "../public/voice.js?raw";
 export const siteAssets: Record<string, {body:string;type:string}> = {
 "/app.js": {body:asset0, type:"text/javascript; charset=utf-8"},
 "/beijing-localities.js": {body:asset1, type:"text/javascript; charset=utf-8"},
@@ -37,14 +40,17 @@ export const siteAssets: Record<string, {body:string;type:string}> = {
 "/index.html": {body:asset11, type:"text/html; charset=utf-8"},
 "/logo.svg": {body:asset12, type:"image/svg+xml"},
 "/mobile.css": {body:asset13, type:"text/css; charset=utf-8"},
-"/policy-local.js": {body:asset14, type:"text/javascript; charset=utf-8"},
-"/premium.css": {body:asset15, type:"text/css; charset=utf-8"},
-"/refined.css": {body:asset16, type:"text/css; charset=utf-8"},
-"/refined.js": {body:asset17, type:"text/javascript; charset=utf-8"},
-"/regions.js": {body:asset18, type:"text/javascript; charset=utf-8"},
-"/shanghai-localities.js": {body:asset19, type:"text/javascript; charset=utf-8"},
-"/shanghai-picker.js": {body:asset20, type:"text/javascript; charset=utf-8"},
-"/style.css": {body:asset21, type:"text/css; charset=utf-8"},
-"/voice.css": {body:asset22, type:"text/css; charset=utf-8"},
-"/voice.js": {body:asset23, type:"text/javascript; charset=utf-8"}
+"/national-localities.js": {body:asset14, type:"text/javascript; charset=utf-8"},
+"/national-picker.js": {body:asset15, type:"text/javascript; charset=utf-8"},
+"/national-regions.js": {body:asset16, type:"text/javascript; charset=utf-8"},
+"/policy-local.js": {body:asset17, type:"text/javascript; charset=utf-8"},
+"/premium.css": {body:asset18, type:"text/css; charset=utf-8"},
+"/refined.css": {body:asset19, type:"text/css; charset=utf-8"},
+"/refined.js": {body:asset20, type:"text/javascript; charset=utf-8"},
+"/regions.js": {body:asset21, type:"text/javascript; charset=utf-8"},
+"/shanghai-localities.js": {body:asset22, type:"text/javascript; charset=utf-8"},
+"/shanghai-picker.js": {body:asset23, type:"text/javascript; charset=utf-8"},
+"/style.css": {body:asset24, type:"text/css; charset=utf-8"},
+"/voice.css": {body:asset25, type:"text/css; charset=utf-8"},
+"/voice.js": {body:asset26, type:"text/javascript; charset=utf-8"}
 };
