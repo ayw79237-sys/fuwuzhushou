@@ -15,9 +15,11 @@ import asset13 from "../public/premium.css?raw";
 import asset14 from "../public/refined.css?raw";
 import asset15 from "../public/refined.js?raw";
 import asset16 from "../public/regions.js?raw";
-import asset17 from "../public/style.css?raw";
-import asset18 from "../public/voice.css?raw";
-import asset19 from "../public/voice.js?raw";
+import asset17 from "../public/shanghai-localities.js?raw";
+import asset18 from "../public/shanghai-picker.js?raw";
+import asset19 from "../public/style.css?raw";
+import asset20 from "../public/voice.css?raw";
+import asset21 from "../public/voice.js?raw";
 export const siteAssets: Record<string, {body:string;type:string}> = {
 "/app.js": {body:asset0, type:"text/javascript; charset=utf-8"},
 "/case-engine.js": {body:asset1, type:"text/javascript; charset=utf-8"},
@@ -36,7 +38,9 @@ export const siteAssets: Record<string, {body:string;type:string}> = {
 "/refined.css": {body:asset14, type:"text/css; charset=utf-8"},
 "/refined.js": {body:asset15, type:"text/javascript; charset=utf-8"},
 "/regions.js": {body:asset16, type:"text/javascript; charset=utf-8"},
-"/style.css": {body:asset17, type:"text/css; charset=utf-8"},
-"/voice.css": {body:asset18, type:"text/css; charset=utf-8"},
-"/voice.js": {body:asset19, type:"text/javascript; charset=utf-8"}
+"/shanghai-localities.js": {body:asset17, type:"text/javascript; charset=utf-8"},
+"/shanghai-picker.js": {body:asset18, type:"text/javascript; charset=utf-8"},
+"/style.css": {body:asset19, type:"text/css; charset=utf-8"},
+"/voice.css": {body:asset20, type:"text/css; charset=utf-8"},
+"/voice.js": {body:asset21, type:"text/javascript; charset=utf-8"}
 };
